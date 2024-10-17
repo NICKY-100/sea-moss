@@ -38,7 +38,7 @@ $body-color: #333;
 $body-bg: #fff;
 $border-radius: .4rem;
 $success: #7952b3;
-$primary: #189b18;
+$primary: #117511;
 $secondary: #c98e21;
 //$info 
 // Required
@@ -82,7 +82,7 @@ $secondary: #c98e21;
 // @import "bootstrap/scss/placeholders";
 
 // Helpers
-// @import "bootstrap/scss/helpers";
+@import "bootstrap/scss/helpers";
 
 // Utilities
 @import "bootstrap/scss/utilities/api";
@@ -92,4 +92,5 @@ $secondary: #c98e21;
 // Custom styles
 //
 
-@import "icon-list";
+@import "bg-radius-gradient";
+@import "feature-icon"
