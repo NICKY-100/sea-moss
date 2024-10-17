@@ -1,0 +1,4 @@
+.bg-radius-gradient {
+    background: $primary;
+    background: radial-gradient(circle, lighten($primary, 25%) 0%, $primary 100%);
+}
