@@ -11,7 +11,7 @@
 <body>
   <nav class="navbar navbar-expand-sm bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand text-primary" href="#">
+      <a class="navbar-brand text-primary" aria-current="page" href="/#">
         <iconify-icon icon="healthicons:agriculture" inline="true" class="fs-4 text-secondary"></iconify-icon>
         N&M Sea Moss
       </a>
@@ -22,10 +22,21 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Login</a>
+            <a class="nav-link active" href="/products/">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Signup</a>
+            <a class="nav-link position-relative" href="/cart.html">Cart <span class="badge rounded-pill bg-danger">
+                <span id="cartquantity">0</span>
+                <span class="visually-hidden">cart quantity</span>
+              </span>
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Signup</a>
           </li>
         </ul>
       </div>
