@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "coralite": "^0.11.4",
+    "coralite": "^0.6.7",
     "nodemon": "^3.1.4",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.44",
