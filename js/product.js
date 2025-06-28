@@ -1,4 +1,4 @@
-import updateCart from './updatecart.js';
+import { updateCart } from './updatecart.js';
 /**
  * @import {CartItem} from './updatecart.js'
  */
@@ -10,24 +10,24 @@ const cartItems = JSON.parse(localStorage.getItem("cart")) || []
 
 const products = {
     bay_leaves: {
-        name: "bay leaves",
-        price: 200
+        name: "Bay leaves",
+        price: 14.00
     },
     cinnamon_leaves: {
-        name: "cinnamon leaves",
-        price: 100
+        name: "Cinnamon leaves",
+        price: 13.99
     },
     guava_leaves: {
-        name: "guava leaves",
-        price: 100
+        name: "Guava leaves",
+        price: 13.99
     },
     sea_moss: {
-        name: " sea moss",
-        price: 100
+        name: "Sea moss",
+        price: 22.00
     },
     soursop_leaves: {
-        name: "soursop leaves",
-        price: 200
+        name: "Soursop leaves",
+        price: 13.99
     }
 
 };

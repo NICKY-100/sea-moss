@@ -1,5 +1,5 @@
 
-import { updateCart, displayCart } from "./updatecart.js";
+import { updateCart } from "./updatecart.js";
 /**
  * @import {CartItem} from './updatecart.js'
  */
@@ -8,4 +8,3 @@ import { updateCart, displayCart } from "./updatecart.js";
 const cartItems = JSON.parse(localStorage.getItem("cart")) || []
 
 updateCart(cartItems)
-displayCart(true)

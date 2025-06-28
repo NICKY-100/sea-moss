@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Bootstrap Sass &amp; JS</title>
+</head>
+
+<body>
+    <seamoss-navbar></seamoss-navbar>
+    <div class="py-5 container">
+        <div class="row gx-5">
+            <div class="col"><img class="img-fluid border border-primary border-2 bg-radius-gradient rounded"
+                    src="../images/IMG-cinnamon-removebg-preview.png">
+            </div>
+            <div class="col">
+                <h1 class=" h4">Cinnamon Leaves</h1>
+                <p>250g</p>
+                <p class="fs-3">£13.99</p>
+                <form id="form">
+                    <input type="hidden" value="cinnamon_leaves" name="productId">
+                    <input type="hidden" value="price_1RZFDRB9fqBDpO7FSTnHgySD" name="price_id">
+                    <label for="quantity" class="form-label">Quantity</label>
+                    <div class="row mb-4">
+                        <div class="col-4">
+
+                            <input id="quantity" value="1" type="number" name="quantity" min="1" max="10"
+                                class="form-control form-control-lg">
+
+
+
+                        </div>
+                        <div class="col-8">
+                            <div class="d-grid">
+                                <button class=" btn-primary btn btn-lg" type="submit">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <p>Benefits of cinnamon leaves:
+                    Medicinal Properties:
+
+                    Antioxidant:
+                    Cinnamon leaves contain antioxidants that can help protect the body against damage from free
+                    radicals.
+
+                    Anti-inflammatory:
+                    They possess anti-inflammatory properties that may help reduce inflammation in the body.
+                    Antimicrobial:
+                    Cinnamon leaves have antimicrobial properties that can help fight off bacteria, viruses, and fungi.
+                    Digestive Support:
+                    They can help soothe digestive issues, relieve stomach cramps, and ease gas.
+                    Improved Circulation:
+                    Cinnamon is known to improve blood circulation, which can help reduce pain and improve overall
+                    health.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3">
+
+                    <div class="d-flex align-items-center">
+                        <iconify-icon class="me-2" icon="oui:app-monitoring"></iconify-icon>
+                        health
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <iconify-icon class="me-2" icon="oui:app-monitoring"></iconify-icon>
+                        Food
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <iconify-icon class="me-2" icon="oui:app-monitoring"></iconify-icon>
+                        sports
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <iconify-icon class="me-2" icon="oui:app-monitoring"></iconify-icon>
+                        arts
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row"></div>
+    </div>
+    <div class="container py-5"></div>
+    <seamoss-footer></seamoss-footer>
+    <script type="module" src="/js/product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+</body>
+
+</html>
